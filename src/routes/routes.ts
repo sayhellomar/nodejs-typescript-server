@@ -12,7 +12,7 @@ export default function routeHandler(
             "Content-Type": "application/json",
         });
         res.end(JSON.stringify({ message: "This is root route", status: 200 }));
-    } else if (url?.startsWith("/products") && method === "GET") {
+    } else if (url?.startsWith("/products")) {
         productController(req, res);
     } else {
         res.writeHead(404, {
@@ -20,7 +20,7 @@ export default function routeHandler(
         });
         res.end(
             JSON.stringify({
-                message: "This is not root route",
+                message: "Not valid API route",
                 status: 404,
             }),
         );
