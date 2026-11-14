@@ -13,5 +13,15 @@
         "id": 3,
         "title": "Lodge Cast Iron Skillet, 10.25 Inch, Pre-Seasoned",
         "description": "Experience unmatched heat retention and even cooking. This heavy-duty skillet arrives pre-seasoned with 100% natural vegetable oil for a natural, easy-release finish that improves over time."
+    },
+    {
+        "id": 4,
+        "title": "Levi's Men's 501 Original Fit Jeans, Stonewash",
+        "description": "A timeless classic designed with a signature straight fit and a classic button fly. Made from durable cotton denim that softens and molds to your body with every wear."
+    },
+    {
+        "id": 5,
+        "title": "Lumina 1080p HD Smart Wi-Fi Home Security Camera",
+        "description": "Monitor your home in real time with crystal-clear 1080p HD video and automated infrared night vision."
     }
 ]
